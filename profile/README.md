@@ -1,3 +1,3 @@
 # BrainCraft.io
 
-Mindshare assembly line.
+Building your mindshare assembly line.
