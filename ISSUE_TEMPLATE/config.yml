@@ -1,0 +1,14 @@
+# SPDX-FileCopyrightText: 2025 BrainCraft.io
+# SPDX-License-Identifier: CC0-1.0
+
+blank_issues_enabled: false
+contact_links:
+  - name: Community Support
+    url: https://github.com/braincraftio/.github/discussions
+    about: Ask questions and discuss with the community
+  - name: Security Issue
+    url: https://github.com/braincraftio/.github/security/policy
+    about: Report security vulnerabilities privately
+  - name: Documentation
+    url: https://github.com/braincraftio/.github/wiki
+    about: Check our documentation and guides

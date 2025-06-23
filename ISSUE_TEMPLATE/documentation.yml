@@ -1,0 +1,96 @@
+# SPDX-FileCopyrightText: 2025 BrainCraft.io
+# SPDX-License-Identifier: CC0-1.0
+
+name: Documentation Issue
+description: Report issues or improvements for documentation
+title: "[DOCS] "
+labels: ["documentation", "needs-triage"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping us improve our documentation! Please provide details below.
+  
+  - type: input
+    id: location
+    attributes:
+      label: Documentation Location
+      description: Link or path to the documentation with the issue
+      placeholder: https://github.com/braincraftio/.github/blob/main/README.md
+    validations:
+      required: true
+  
+  - type: dropdown
+    id: type
+    attributes:
+      label: Issue Type
+      description: What kind of documentation issue is this?
+      options:
+        - Incorrect information
+        - Missing information
+        - Unclear explanation
+        - Broken links
+        - Typo/Grammar
+        - Code example doesn't work
+        - Outdated information
+        - Other
+    validations:
+      required: true
+  
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the issue in detail
+      placeholder: |
+        The documentation says X, but it should say Y...
+        
+        The example code shows..., but it doesn't work because...
+        
+        This section is confusing because...
+    validations:
+      required: true
+  
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested Improvement
+      description: How should this be fixed? If you have specific wording or code changes, please include them.
+      placeholder: |
+        I suggest changing the text to...
+        
+        The code example should be...
+        
+        This could be clearer if...
+  
+  - type: dropdown
+    id: impact
+    attributes:
+      label: Impact
+      description: Who is affected by this documentation issue?
+      options:
+        - New users getting started
+        - Developers implementing features
+        - Contributors to the project
+        - Administrators/DevOps
+        - Everyone
+    validations:
+      required: true
+  
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Add any other context or screenshots about the documentation issue
+  
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Checklist
+      description: Please confirm the following
+      options:
+        - label: I have verified this issue exists in the latest version of the documentation
+          required: true
+        - label: I am willing to submit a PR to fix this documentation
+          required: false

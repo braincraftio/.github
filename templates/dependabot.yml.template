@@ -1,0 +1,245 @@
+# SPDX-FileCopyrightText: 2025 BrainCraft.io
+# SPDX-License-Identifier: CC0-1.0
+
+# Dependabot configuration template for BrainCraft.io projects
+# 
+# This file configures Dependabot to automatically create pull requests
+# to keep dependencies up to date.
+#
+# For more information, see:
+# https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+
+version: 2
+updates:
+  # GitHub Actions
+  # Always keep GitHub Actions up to date
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "06:00"
+      timezone: "UTC"
+    assignees:
+      - "@braincraftio/devops-team"
+    reviewers:
+      - "@braincraftio/devops-team"
+    labels:
+      - "dependencies"
+      - "github-actions"
+      - "automated"
+    commit-message:
+      prefix: "chore"
+      include: "scope"
+    open-pull-requests-limit: 5
+
+  # JavaScript/Node.js dependencies (npm)
+  # Uncomment and customize if your project uses npm
+  # - package-ecosystem: "npm"
+  #   directory: "/"
+  #   schedule:
+  #     interval: "weekly"
+  #     day: "monday"
+  #     time: "06:00"
+  #     timezone: "UTC"
+  #   assignees:
+  #     - "@braincraftio/frontend-team"
+  #   reviewers:
+  #     - "@braincraftio/frontend-team"
+  #   labels:
+  #     - "dependencies"
+  #     - "javascript"
+  #     - "automated"
+  #   allow:
+  #     - dependency-type: "direct"
+  #     - dependency-type: "production"
+  #   ignore:
+  #     # Ignore specific dependencies that should be updated manually
+  #     # - dependency-name: "react"
+  #     #   versions: ["17.x", "18.x"]
+  #   versioning-strategy: increase
+  #   commit-message:
+  #     prefix: "chore"
+  #     include: "scope"
+  #   open-pull-requests-limit: 10
+
+  # Go modules
+  # Uncomment and customize if your project uses Go
+  # - package-ecosystem: "gomod"
+  #   directory: "/"
+  #   schedule:
+  #     interval: "weekly"
+  #     day: "tuesday"
+  #     time: "06:00"
+  #     timezone: "UTC"
+  #   assignees:
+  #     - "@braincraftio/backend-team"
+  #   reviewers:
+  #     - "@braincraftio/backend-team"
+  #   labels:
+  #     - "dependencies"
+  #     - "go"
+  #     - "automated"
+  #   commit-message:
+  #     prefix: "chore"
+  #     include: "scope"
+  #   open-pull-requests-limit: 10
+
+  # Python pip dependencies
+  # Uncomment and customize if your project uses pip
+  # - package-ecosystem: "pip"
+  #   directory: "/"
+  #   schedule:
+  #     interval: "weekly"
+  #     day: "wednesday"
+  #     time: "06:00"
+  #     timezone: "UTC"
+  #   assignees:
+  #     - "@braincraftio/backend-team"
+  #   reviewers:
+  #     - "@braincraftio/backend-team"
+  #   labels:
+  #     - "dependencies"
+  #     - "python"
+  #     - "automated"
+  #   allow:
+  #     - dependency-type: "direct"
+  #     - dependency-type: "production"
+  #   commit-message:
+  #     prefix: "chore"
+  #     include: "scope"
+  #   open-pull-requests-limit: 10
+
+  # Docker dependencies
+  # Uncomment if your project uses Docker
+  # - package-ecosystem: "docker"
+  #   directory: "/"
+  #   schedule:
+  #     interval: "weekly"
+  #     day: "thursday"
+  #     time: "06:00"
+  #     timezone: "UTC"
+  #   assignees:
+  #     - "@braincraftio/devops-team"
+  #   reviewers:
+  #     - "@braincraftio/devops-team"
+  #   labels:
+  #     - "dependencies"
+  #     - "docker"
+  #     - "automated"
+  #   commit-message:
+  #     prefix: "chore"
+  #     include: "scope"
+  #   open-pull-requests-limit: 5
+
+  # Terraform providers
+  # Uncomment if your project uses Terraform
+  # - package-ecosystem: "terraform"
+  #   directory: "/"
+  #   schedule:
+  #     interval: "weekly"
+  #     day: "friday"
+  #     time: "06:00"
+  #     timezone: "UTC"
+  #   assignees:
+  #     - "@braincraftio/infrastructure-team"
+  #   reviewers:
+  #     - "@braincraftio/infrastructure-team"
+  #   labels:
+  #     - "dependencies"
+  #     - "terraform"
+  #     - "automated"
+  #   commit-message:
+  #     prefix: "chore"
+  #     include: "scope"
+  #   open-pull-requests-limit: 5
+
+  # Ruby bundler dependencies
+  # Uncomment if your project uses Ruby
+  # - package-ecosystem: "bundler"
+  #   directory: "/"
+  #   schedule:
+  #     interval: "weekly"
+  #   assignees:
+  #     - "@braincraftio/backend-team"
+  #   labels:
+  #     - "dependencies"
+  #     - "ruby"
+  #     - "automated"
+
+  # Rust cargo dependencies
+  # Uncomment if your project uses Rust
+  # - package-ecosystem: "cargo"
+  #   directory: "/"
+  #   schedule:
+  #     interval: "weekly"
+  #   assignees:
+  #     - "@braincraftio/backend-team"
+  #   labels:
+  #     - "dependencies"
+  #     - "rust"
+  #     - "automated"
+
+  # Maven dependencies (Java)
+  # Uncomment if your project uses Maven
+  # - package-ecosystem: "maven"
+  #   directory: "/"
+  #   schedule:
+  #     interval: "weekly"
+  #   assignees:
+  #     - "@braincraftio/backend-team"
+  #   labels:
+  #     - "dependencies"
+  #     - "java"
+  #     - "automated"
+
+  # NuGet dependencies (.NET)
+  # Uncomment if your project uses .NET
+  # - package-ecosystem: "nuget"
+  #   directory: "/"
+  #   schedule:
+  #     interval: "weekly"
+  #   assignees:
+  #     - "@braincraftio/backend-team"
+  #   labels:
+  #     - "dependencies"
+  #     - "dotnet"
+  #     - "automated"
+
+# ==============================================================================
+# Configuration options explained:
+#
+# package-ecosystem: The package manager to use
+# directory: Where to look for manifest files
+# schedule: When to check for updates
+#   - interval: daily, weekly, or monthly
+#   - day: Day of week for weekly updates
+#   - time: Time of day to check (HH:MM format)
+#   - timezone: Timezone for the time
+# 
+# assignees: Users to assign to the PR
+# reviewers: Users to request reviews from
+# labels: Labels to apply to the PR
+# 
+# allow: Dependencies to allow updates for
+#   - dependency-type: direct, indirect, production, development, all
+# 
+# ignore: Dependencies to ignore updates for
+#   - dependency-name: Name or pattern to ignore
+#   - versions: Specific versions to ignore
+# 
+# versioning-strategy: How to update version requirements
+#   - increase: Increase the version requirement (default)
+#   - increase-if-necessary: Only increase if the new version requires it
+#   - lockfile-only: Only update the lockfile
+#   - auto: Let Dependabot decide
+# 
+# commit-message: Customize commit messages
+#   - prefix: Prefix for commit messages
+#   - include: What to include in the commit message
+# 
+# open-pull-requests-limit: Maximum number of open PRs (default 5)
+# 
+# For more options, see:
+# https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+# ==============================================================================

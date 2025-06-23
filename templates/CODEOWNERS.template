@@ -1,0 +1,120 @@
+# SPDX-FileCopyrightText: 2025 BrainCraft.io
+# SPDX-License-Identifier: CC0-1.0
+
+# CODEOWNERS Template for BrainCraft.io Projects
+# 
+# This file defines who is automatically requested for review when someone
+# opens a pull request that modifies specific files or directories.
+#
+# For more information, see:
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default owners for everything in the repo
+# Unless a later match takes precedence, these owners will be requested for review
+* @braincraftio/maintainers
+
+# Documentation owners
+# All markdown files and documentation directories
+*.md @braincraftio/docs-team @braincraftio/maintainers
+docs/ @braincraftio/docs-team
+*.rst @braincraftio/docs-team
+*.txt @braincraftio/docs-team
+
+# CI/CD and GitHub Actions
+.github/workflows/ @braincraftio/devops-team @braincraftio/maintainers
+.github/actions/ @braincraftio/devops-team
+**/Dockerfile @braincraftio/devops-team
+**/docker-compose.yml @braincraftio/devops-team
+**/.dockerignore @braincraftio/devops-team
+
+# Security-sensitive files
+SECURITY.md @braincraftio/security-team @braincraftio/maintainers
+.github/CODEOWNERS @braincraftio/admin-team
+**/security/ @braincraftio/security-team
+**/*secret* @braincraftio/security-team
+**/*token* @braincraftio/security-team
+**/*key* @braincraftio/security-team
+**/*password* @braincraftio/security-team
+
+# License and legal files
+LICENSE* @braincraftio/legal-team @braincraftio/admin-team
+NOTICE @braincraftio/legal-team @braincraftio/admin-team
+COPYRIGHT @braincraftio/legal-team @braincraftio/admin-team
+PATENTS @braincraftio/legal-team @braincraftio/admin-team
+.reuse/ @braincraftio/legal-team
+LICENSES/ @braincraftio/legal-team
+
+# Infrastructure as Code
+*.tf @braincraftio/infrastructure-team
+*.tfvars @braincraftio/infrastructure-team @braincraftio/security-team
+**/terraform/ @braincraftio/infrastructure-team
+**/k8s/ @braincraftio/infrastructure-team
+**/kubernetes/ @braincraftio/infrastructure-team
+*.yaml @braincraftio/infrastructure-team
+*.yml @braincraftio/infrastructure-team
+
+# Language-specific owners (customize based on your tech stack)
+# Go
+*.go @braincraftio/backend-team
+go.mod @braincraftio/backend-team
+go.sum @braincraftio/backend-team
+
+# JavaScript/TypeScript
+*.js @braincraftio/frontend-team
+*.jsx @braincraftio/frontend-team
+*.ts @braincraftio/frontend-team
+*.tsx @braincraftio/frontend-team
+package.json @braincraftio/frontend-team @braincraftio/security-team
+package-lock.json @braincraftio/frontend-team @braincraftio/security-team
+yarn.lock @braincraftio/frontend-team @braincraftio/security-team
+
+# Python
+*.py @braincraftio/backend-team
+requirements.txt @braincraftio/backend-team @braincraftio/security-team
+Pipfile @braincraftio/backend-team @braincraftio/security-team
+Pipfile.lock @braincraftio/backend-team @braincraftio/security-team
+pyproject.toml @braincraftio/backend-team
+poetry.lock @braincraftio/backend-team @braincraftio/security-team
+
+# Configuration files
+.env* @braincraftio/devops-team @braincraftio/security-team
+**/config/ @braincraftio/devops-team
+*.conf @braincraftio/devops-team
+*.ini @braincraftio/devops-team
+
+# Database
+**/migrations/ @braincraftio/database-team @braincraftio/backend-team
+**/db/ @braincraftio/database-team
+*.sql @braincraftio/database-team
+
+# Tests
+**/tests/ @braincraftio/qa-team @braincraftio/maintainers
+**/test/ @braincraftio/qa-team @braincraftio/maintainers
+**/__tests__/ @braincraftio/qa-team @braincraftio/maintainers
+*test.* @braincraftio/qa-team
+*spec.* @braincraftio/qa-team
+
+# Build and deployment
+Makefile @braincraftio/devops-team
+Taskfile.yml @braincraftio/devops-team
+.github/releases/ @braincraftio/release-team @braincraftio/maintainers
+
+# ==============================================================================
+# Instructions for customizing this template:
+# 
+# 1. Replace all @braincraftio team references with your actual GitHub teams
+# 2. Add or remove language-specific sections based on your tech stack
+# 3. Adjust file patterns to match your project structure
+# 4. Consider adding user-specific owners for critical components
+# 5. Order matters! Later matches take precedence over earlier ones
+# 6. Use the GitHub CODEOWNERS syntax validator to check your file
+# 
+# Team naming suggestions:
+# - @org/maintainers - Core maintainers with merge rights
+# - @org/contributors - Regular contributors
+# - @org/security-team - Security-focused team members
+# - @org/docs-team - Documentation maintainers
+# - @org/frontend-team - Frontend developers
+# - @org/backend-team - Backend developers
+# - @org/devops-team - DevOps and infrastructure
+# ==============================================================================

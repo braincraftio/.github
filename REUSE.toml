@@ -1,0 +1,34 @@
+version = 1
+SPDX-PackageName = "BrainCraft.io Foundation Repositories"
+SPDX-PackageSupplier = "https://braincraft.io"
+
+[[annotations]]
+path = ["src/**", "**.py", "**.sh", "**.go", "**.ts", "**.tsx", "**.js", "**.jsx", "**.json", "**.yaml", "**.yml", "**.tf"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2025 BrainCraft.io contributors"
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["infrastructure/**", ".github/**", "workspace/**", ".devcontainer/**", "Taskfile**", "Dockerfile**"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2025 BrainCraft.io contributors"
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["docs/**", "website/**", "brand/**", "glossary/**", "academy/**", "i18n/**", "**.md", "**.svg", "**.png", "**.jpg", "**.jpeg", "**.webp", "**.html", "**.xml"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2025 BrainCraft.io contributors"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = ["LICENSE**", "COPYRIGHT**", "NOTICE**"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2025 BrainCraft.io contributors"
+SPDX-License-Identifier = "CC0-1.0"
+SPDX-FileComment = "These are reference license declarations and do not require SPDX headers."
+
+[[annotations]]
+path = ".reuse/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2025 BrainCraft.io project tooling"
+SPDX-License-Identifier = "CC0-1.0"
