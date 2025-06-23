@@ -31,10 +31,10 @@ We work with a diverse range of technologies to meet various project needs:
 ## Getting Started
 
 ### For Contributors
-1. Read our [Contributing Guidelines](https://github.com/braincraftio/.github/blob/main/.github/CONTRIBUTING.md)
-2. Review our [Code of Conduct](https://github.com/braincraftio/.github/blob/main/.github/CODE_OF_CONDUCT.md)
+1. Read our [Contributing Guidelines](https://github.com/braincraftio/.github/blob/main/CONTRIBUTING.md)
+2. Review our [Code of Conduct](https://github.com/braincraftio/.github/blob/main/CODE_OF_CONDUCT.md)
 3. Check out our project repositories
-4. Join the discussion in [GitHub Discussions](https://github.com/braincraftio/.github/discussions)
+4. Join the discussion in [GitHub Discussions](https://github.com/braincraftio/workspace/discussions)
 
 ### For Users
 - Browse our repositories for tools and resources
@@ -52,13 +52,13 @@ We welcome contributions from everyone! Whether you're fixing bugs, improving do
 - **Feature Requests**: Share your ideas for new features
 - **Community Support**: Help others in discussions and issues
 
-For detailed information, see our [Contributing Guidelines](https://github.com/braincraftio/.github/blob/main/.github/CONTRIBUTING.md).
+For detailed information, see our [Contributing Guidelines](https://github.com/braincraftio/.github/blob/main/CONTRIBUTING.md).
 
 ## Community
 
 Join our growing community:
 
-- 💬 [GitHub Discussions](https://github.com/braincraftio/.github/discussions) - Ask questions, share ideas
+- 💬 [GitHub Discussions](https://github.com/braincraftio/workspace/discussions) - Ask questions, share ideas
 - 🐛 [Issue Tracker](https://github.com/braincraftio/.github/issues) - Report bugs, request features
 - 📖 [Documentation](https://github.com/braincraftio/.github/wiki) - Learn about our projects
 - 🌟 [Star our repos](https://github.com/braincraftio) - Show your support
@@ -71,7 +71,7 @@ Security is a top priority at BrainCraft.io. We take the following measures:
 - SPDX license compliance and SBOM generation
 - Responsible disclosure policy for vulnerabilities
 
-For security concerns, please see our [Security Policy](https://github.com/braincraftio/.github/blob/main/.github/SECURITY.md) or contact us privately at security@braincraft.io.
+For security concerns, please see our [Security Policy](https://github.com/braincraftio/.github/blob/main/SECURITY.md) or contact us privately at security@braincraft.io.
 
 ## License
 

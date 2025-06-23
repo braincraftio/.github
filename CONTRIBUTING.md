@@ -226,7 +226,7 @@ By signing off, you certify that:
 
 ### Where to Get Help
 
-- 💬 [GitHub Discussions](https://github.com/braincraftio/.github/discussions)
+- 💬 [GitHub Discussions](https://github.com/braincraftio/workspace/discussions)
 - 🐛 [Issue Tracker](https://github.com/braincraftio/.github/issues)
 - 📧 Email: hello@braincraft.io
 
@@ -260,8 +260,8 @@ Together, we're building infrastructure for a more equitable and joyful technolo
 
 All contributions to BrainCraft.io repositories are made under our dual-license model:
 
-- **Code and configuration** are licensed under the [Apache License 2.0](../LICENSE-Apache-2.0.txt)
-- **Documentation and creative assets** are licensed under the [Creative Commons Attribution 4.0](../LICENSE-CC-BY-4.0.txt)
+- **Code and configuration** are licensed under the [Apache License 2.0](LICENSE-Apache-2.0.txt)
+- **Documentation and creative assets** are licensed under the [Creative Commons Attribution 4.0](LICENSE-CC-BY-4.0.txt)
 
 By submitting a pull request, issue, or suggestion, you agree that your contributions may be used under either or both licenses as applicable. Please include SPDX headers when appropriate.
 

@@ -37,7 +37,7 @@ This special `.github` repository provides:
 
 ### For Contributors
 
-See our [Contributing Guidelines](.github/CONTRIBUTING.md) to get started. We welcome contributions from everyone!
+See our [Contributing Guidelines](CONTRIBUTING.md) to get started. We welcome contributions from everyone!
 
 ## 📁 Repository Structure
 
@@ -125,7 +125,7 @@ This repository is [REUSE compliant](https://reuse.software/), ensuring clear an
 
 ## 🤝 Contributing
 
-We welcome contributions! Please see our [Contributing Guidelines](.github/CONTRIBUTING.md) for details on:
+We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details on:
 - Code style and standards
 - Pull request process
 - Development setup
@@ -133,7 +133,7 @@ We welcome contributions! Please see our [Contributing Guidelines](.github/CONTR
 
 ## 🔒 Security
 
-Security is a top priority. Please see our [Security Policy](.github/SECURITY.md) for:
+Security is a top priority. Please see our [Security Policy](SECURITY.md) for:
 - Vulnerability reporting procedures
 - Security update process
 - Responsible disclosure guidelines
@@ -142,21 +142,20 @@ Security is a top priority. Please see our [Security Policy](.github/SECURITY.md
 
 ## 💬 Support
 
-Need help? Check out our [Support Guide](.github/SUPPORT.md) or:
-- 💭 [GitHub Discussions](https://github.com/braincraftio/.github/discussions)
+Need help? Check out our [Support Guide](SUPPORT.md) or:
+- 💭 [GitHub Discussions](https://github.com/braincraftio/workspace/discussions)
 - 🐛 [Issue Tracker](https://github.com/braincraftio/.github/issues)
 - 📧 Email: hello@braincraft.io
 
 ## 🏛️ Governance
 
-Learn about our decision-making process in [GOVERNANCE.md](.github/GOVERNANCE.md).
+Learn about our decision-making process in [GOVERNANCE.md](GOVERNANCE.md).
 
 ## 💝 Funding
 
 Support BrainCraft.io development:
 - [GitHub Sponsors](https://github.com/sponsors/braincraftio)
 - [Open Collective](https://opencollective.com/braincraftio)
-- [Ko-fi](https://ko-fi.com/braincraftio)
 - [Patreon](https://patreon.com/braincraftio)
 
 ## 📊 Status
@@ -170,7 +169,7 @@ Support BrainCraft.io development:
 
 - [Organization Profile](https://github.com/braincraftio)
 - [Documentation](https://github.com/braincraftio/.github/wiki)
-- [Discussions](https://github.com/braincraftio/.github/discussions)
+- [Discussions](https://github.com/braincraftio/workspace/discussions)
 
 ---
 

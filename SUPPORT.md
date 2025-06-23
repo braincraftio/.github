@@ -21,7 +21,7 @@ Start with our documentation resources:
 
 Connect with our community for help and discussions:
 
-- **GitHub Discussions**: [Join the conversation](https://github.com/braincraftio/.github/discussions)
+- **GitHub Discussions**: [Join the conversation](https://github.com/braincraftio/workspace/discussions)
   - Ask questions
   - Share ideas
   - Show off your projects

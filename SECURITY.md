@@ -33,7 +33,6 @@ Instead, please report them via one of these methods:
 
 2. **Email**:
    - Send details to: security@braincraft.io
-   - Encrypt sensitive information using our PGP key (available at https://braincraft.io/security.asc)
 
 ### What to Include
 
@@ -111,12 +110,11 @@ We use the following tools to maintain security:
 
 ## Recognition
 
-We maintain a [Security Hall of Fame](https://github.com/braincraftio/.github/blob/main/SECURITY_HALL_OF_FAME.md) to recognize individuals who have responsibly disclosed vulnerabilities.
+We value and recognize security researchers who help keep our projects safe. Contributors who responsibly disclose vulnerabilities will be acknowledged in our release notes and security advisories (unless they prefer to remain anonymous).
 
 ## Contact
 
 - Security Email: security@braincraft.io
-- PGP Key: https://braincraft.io/security.asc
 - General Support: See [SUPPORT.md](./SUPPORT.md)
 
 ---
