@@ -158,13 +158,6 @@ Support BrainCraft.io development:
 - [Open Collective](https://opencollective.com/braincraftio)
 - [Patreon](https://patreon.com/braincraftio)
 
-## 📊 Status
-
-- **Compliance**: REUSE compliant ✅
-- **Health**: All community files present ✅
-- **Templates**: Issue & PR templates ready ✅
-- **Workflows**: Basic workflows available 🚧
-
 ## 🔗 Links
 
 - [Organization Profile](https://github.com/braincraftio)
