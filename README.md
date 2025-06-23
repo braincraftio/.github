@@ -156,7 +156,7 @@ Learn about our decision-making process in [GOVERNANCE.md](GOVERNANCE.md).
 Support BrainCraft.io development:
 - [GitHub Sponsors](https://github.com/sponsors/braincraftio)
 - [Open Collective](https://opencollective.com/braincraftio)
-- [Patreon](https://patreon.com/braincraftio)
+- [Patreon](https://www.patreon.com/c/braincraftio)
 
 ## 🔗 Links
 
