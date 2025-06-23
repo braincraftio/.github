@@ -45,17 +45,11 @@ jobs:
           use-quiet-mode: 'no'
           use-verbose-mode: 'yes'
           
-          # Configuration file (if exists)
-          config-file: '.markdown-link-check.json'
-          
           # Check modified files in PRs
           check-modified-files-only: 'no'
           
           # Base branch for comparison
           base-branch: 'main'
-          
-          # File path pattern
-          file-path: './'
           
           # File extension to check
           file-extension: '.md'
