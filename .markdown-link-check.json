@@ -1,0 +1,35 @@
+{
+  "ignorePatterns": [
+    {
+      "pattern": "^http://localhost",
+      "comment": "Ignore localhost URLs"
+    },
+    {
+      "pattern": "^https://github.com/braincraftio/[^/]+/issues/new",
+      "comment": "Ignore GitHub issue creation URLs"
+    },
+    {
+      "pattern": "^https://github.com/braincraftio/[^/]+/compare/",
+      "comment": "Ignore GitHub PR comparison URLs"
+    },
+    {
+      "pattern": "#",
+      "comment": "Ignore anchor-only links"
+    },
+    {
+      "pattern": "^https://www\\.patreon\\.com/",
+      "comment": "Patreon blocks automated requests (returns 403)"
+    }
+  ],
+  "replacementPatterns": [
+    {
+      "pattern": "^/",
+      "replacement": "https://github.com/braincraftio/.github/blob/main/"
+    }
+  ],
+  "timeout": "20s",
+  "retryOn429": true,
+  "retryCount": 3,
+  "fallbackRetryDelay": "30s",
+  "aliveStatusCodes": [200, 201, 202, 203, 204, 206, 301, 302, 303, 307, 308]
+}
