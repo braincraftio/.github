@@ -15,6 +15,6 @@ on:
 
 jobs:
   license-check:
-    # Call the reusable workflow from our own repo's workflows/ directory
-    # Using relative path to the global organization workflows
-    uses: ./workflows/spdx-header-check.yml@main
+    # Call the reusable workflow from .github/workflows/
+    # GitHub requires reusable workflows to be in .github/workflows/
+    uses: ./.github/workflows/spdx-header-check-global.yml@main
