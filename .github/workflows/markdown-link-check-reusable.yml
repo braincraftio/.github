@@ -27,6 +27,6 @@ jobs:
   link-check:
     # Call the reusable workflow from our own repo's workflows/ directory
     # Using relative path to the global organization workflows
-    uses: ./workflows/markdown-link-check.yml
+    uses: ./workflows/markdown-link-check.yml@main
     with:
       config-file: 'mlc_config.json'
