@@ -16,5 +16,5 @@ on:
 jobs:
   license-check:
     # Call the reusable workflow from our own repo's workflows/ directory
-    # Note: Even from same repo, we must use full path with @ref
-    uses: braincraftio/.github/workflows/spdx-header-check.yml@main
+    # Using relative path to the global organization workflows
+    uses: ./workflows/spdx-header-check.yml
