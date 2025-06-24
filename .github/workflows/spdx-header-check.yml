@@ -4,7 +4,16 @@
 name: SPDX License Header Check
 
 # This workflow validates SPDX license headers and REUSE compliance
-# It can be used directly in this repository or called as a reusable workflow
+# It serves dual purposes:
+# 1. Runs directly in this repository on push/PR
+# 2. Can be called as a reusable workflow from other repositories
+#
+# To use in other repositories:
+# ```yaml
+# jobs:
+#   license-check:
+#     uses: braincraftio/.github/.github/workflows/spdx-header-check.yml@main
+# ```
 
 on:
   # Direct triggers for this repository

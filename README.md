@@ -43,23 +43,22 @@ See our [Contributing Guidelines](CONTRIBUTING.md) to get started. We welcome co
 
 ```
 .github/                        # This repository
-├── .github/                    # Community health files (inherited by all repos)
-│   ├── ISSUE_TEMPLATE/        # Issue templates
-│   ├── PULL_REQUEST_TEMPLATE/ # PR templates  
-│   ├── CODE_OF_CONDUCT.md     # Code of conduct
-│   ├── CONTRIBUTING.md        # Contribution guidelines
-│   ├── FUNDING.yml           # Funding/sponsorship links
-│   ├── GOVERNANCE.md         # Governance model
-│   ├── SECURITY.md           # Security policy
-│   ├── SUPPORT.md            # Support resources
-│   └── pull_request_template.md # Default PR template
+├── .github/                    # GitHub-specific files
+│   └── workflows/             # Dual-purpose workflows (direct + reusable)
+├── ISSUE_TEMPLATE/            # Issue templates (inherited by all repos)
+├── PULL_REQUEST_TEMPLATE/     # PR templates (inherited by all repos)
 ├── profile/                   # Organization profile
-│   ├── README.md             # Displayed on github.com/braincraftio
-│   └── assets/               # Images and media
-├── workflows/                 # Reusable workflows
+│   └── README.md             # Displayed on github.com/braincraftio
 ├── templates/                 # Template files for new repos
 ├── LICENSES/                  # License texts (REUSE standard)
-└── REUSE.toml                # License compliance configuration
+├── CODE_OF_CONDUCT.md        # Code of conduct (inherited)
+├── CONTRIBUTING.md           # Contribution guidelines (inherited)
+├── FUNDING.yml              # Funding/sponsorship links (inherited)
+├── GOVERNANCE.md            # Governance model (inherited)
+├── SECURITY.md              # Security policy (inherited)
+├── SUPPORT.md               # Support resources (inherited)
+├── pull_request_template.md  # Default PR template (inherited)
+└── REUSE.toml               # License compliance configuration
 ```
 
 ## 🏥 Community Health Files
@@ -92,14 +91,26 @@ https://github.com/braincraftio/[repo]/compare/main...branch?template=feature.md
 
 ## 🔄 Reusable Workflows
 
-Current workflows available:
-- `spdx-header-check.yml` - Validates SPDX license headers
+Our workflows in `.github/workflows/` serve dual purposes - they run in this repository AND can be called from other repositories:
+
+### Available Workflows:
+- **`spdx-header-check.yml`** - Validates SPDX license headers and REUSE compliance
+- **`markdown-link-check.yml`** - Validates all markdown links and anchors
+
+### Using in Other Repositories:
+```yaml
+jobs:
+  license-check:
+    uses: braincraftio/.github/.github/workflows/spdx-header-check.yml@main
+  
+  link-check:
+    uses: braincraftio/.github/.github/workflows/markdown-link-check.yml@main
+```
 
 Coming soon:
-- License compliance checking
-- Security scanning
+- Security scanning workflows
 - Code quality checks
-- Automated releases
+- Automated release workflows
 
 ## 📐 Templates
 
