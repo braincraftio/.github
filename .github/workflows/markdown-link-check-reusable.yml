@@ -27,6 +27,6 @@ jobs:
   link-check:
     # Call the reusable workflow from .github/workflows/
     # GitHub requires reusable workflows to be in .github/workflows/
-    uses: ./.github/workflows/markdown-link-check-global.yml@main
+    uses: ./.github/workflows/markdown-link-check-global.yml
     with:
       config-file: 'mlc_config.json'
