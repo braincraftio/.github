@@ -30,7 +30,7 @@ This special `.github` repository provides:
    ```yaml
    jobs:
      license-check:
-       uses: braincraftio/.github/.github/workflows/spdx-header-check.yml@main
+       uses: braincraftio/.github/workflows/spdx-header-check.yml@main
    ```
 
 3. **Using Templates**: Copy templates from the `templates/` directory and customize for your repository.

@@ -15,4 +15,5 @@ on:
 
 jobs:
   license-check:
-    uses: braincraftio/.github/workflows/spdx-header-check.yml@main
+    # Use relative path to call the reusable workflow in the workflows/ directory
+    uses: ./workflows/spdx-header-check.yml
