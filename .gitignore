@@ -451,7 +451,7 @@ id_ed25519.pub
 # Example:
 # !my-important.env
 # !.vscode/recommended-extensions.json
-!.markdown-link-check.json
+!mlc_config.json
 # Generated files
 sbom.spdx
 
