@@ -44,9 +44,9 @@ See our [Contributing Guidelines](CONTRIBUTING.md) to get started. We welcome co
 ```
 .github/                        # This repository
 ├── .github/                    # GitHub-specific files
-│   └── workflows/             # Dual-purpose workflows (direct + reusable)
-├── ISSUE_TEMPLATE/            # Issue templates (inherited by all repos)
-├── PULL_REQUEST_TEMPLATE/     # PR templates (inherited by all repos)
+│   ├── workflows/             # Dual-purpose workflows (direct + reusable)
+│   ├── ISSUE_TEMPLATE/        # Issue templates (inherited by all repos)
+│   └── PULL_REQUEST_TEMPLATE/ # PR templates (inherited by all repos)
 ├── profile/                   # Organization profile
 │   └── README.md             # Displayed on github.com/braincraftio
 ├── templates/                 # Template files for new repos
