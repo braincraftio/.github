@@ -60,7 +60,7 @@ jobs:
 
       - name: Install REUSE Tool
         run: |
-          if [ "${{ inputs.reuse-version }}" = "latest" ]; then
+          if [ "${{ inputs.reuse-version || 'latest' }}" = "latest" ]; then
             pip install --upgrade pip
             pip install reuse
           else

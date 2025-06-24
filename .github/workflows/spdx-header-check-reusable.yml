@@ -1,0 +1,18 @@
+# SPDX-FileCopyrightText: 2025 BrainCraft.io
+# SPDX-License-Identifier: Apache-2.0
+
+name: SPDX License Header Check (Reusable Test)
+
+# Test workflow that calls the organization's reusable SPDX check workflow
+# Once verified working, this will replace the current spdx-header-check.yml
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+  workflow_dispatch:
+
+jobs:
+  license-check:
+    uses: braincraftio/.github/workflows/spdx-header-check.yml@main
