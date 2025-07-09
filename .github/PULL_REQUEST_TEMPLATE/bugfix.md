@@ -25,6 +25,7 @@ SPDX-License-Identifier: CC0-1.0
 <!-- What other approaches did you consider? Why did you choose this one? -->
 
 ## Testing
+
 - [ ] Bug reproduction test added
 - [ ] Fix verified locally
 - [ ] Regression tests pass
@@ -33,9 +34,9 @@ SPDX-License-Identifier: CC0-1.0
 
 ### How to Test
 <!-- Provide steps for reviewers to test the fix -->
-1. 
-2. 
-3. 
+1.
+2.
+3.
 
 ## Impact Analysis
 <!-- Who is affected by this bug and fix? -->
@@ -48,6 +49,7 @@ SPDX-License-Identifier: CC0-1.0
 <!-- Is this fix safe to rollback if needed? -->
 
 ## Related Issues
+
 Fixes #
 
 ## Regression Prevention
@@ -58,6 +60,7 @@ Fixes #
 - [ ] Added linting rules (if applicable)
 
 ## Checklist
+
 - [ ] Bug can no longer be reproduced
 - [ ] No new bugs introduced
 - [ ] All existing tests still pass

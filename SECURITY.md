@@ -14,7 +14,7 @@ We release patches for security vulnerabilities. Which versions are eligible for
 | latest  | :white_check_mark: |
 | < latest| :x:                |
 
-_Note: For projects with formal release cycles, this table will be updated with specific version support windows._
+*Note: For projects with formal release cycles, this table will be updated with specific version support windows.*
 
 ## Reporting a Vulnerability
 
@@ -32,7 +32,7 @@ Instead, please report them via one of these methods:
    - Fill out the security advisory form
 
 2. **Email**:
-   - Send details to: security@braincraft.io
+   - Send details to: <security@braincraft.io>
 
 ### What to Include
 
@@ -82,6 +82,7 @@ We follow a coordinated disclosure model:
 For contributors and maintainers:
 
 ### Code Security
+
 - Follow secure coding practices
 - Validate all inputs
 - Use parameterized queries for database operations
@@ -89,19 +90,23 @@ For contributors and maintainers:
 - Keep dependencies updated
 
 ### Dependency Management
+
 - Regularly run `npm audit`, `pip audit`, or equivalent
 - Monitor security advisories for dependencies
 - Use tools like Dependabot for automatic updates
 - Review dependency licenses for compatibility
 
 ### Secret Management
+
 - Never commit secrets, API keys, or credentials
 - Use environment variables for sensitive configuration
 - Implement secret scanning in CI/CD pipelines
 - Rotate credentials regularly
 
 ### Security Tools
+
 We use the following tools to maintain security:
+
 - GitHub Security Advisories
 - CodeQL for static analysis
 - SPDX/REUSE for license compliance
@@ -114,7 +119,7 @@ We value and recognize security researchers who help keep our projects safe. Con
 
 ## Contact
 
-- Security Email: security@braincraft.io
+- Security Email: <security@braincraft.io>
 - General Support: See [SUPPORT.md](./SUPPORT.md)
 
 ---

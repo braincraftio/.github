@@ -104,6 +104,7 @@ git commit -m "test: add unit tests for auth module"
 ```
 
 Types:
+
 - `feat`: New feature
 - `fix`: Bug fix
 - `docs`: Documentation changes
@@ -180,16 +181,19 @@ Brief description of what this PR does
 ### Language-Specific Guidelines
 
 #### Go
+
 - Follow [Effective Go](https://golang.org/doc/effective_go.html)
 - Use `gofmt` and `golint`
 - Write table-driven tests
 
 #### JavaScript/TypeScript
+
 - Use ESLint configuration
 - Prefer functional programming patterns
 - Use TypeScript for type safety
 
 #### Python
+
 - Follow [PEP 8](https://www.python.org/dev/peps/pep-0008/)
 - Use type hints where appropriate
 - Write docstrings for public functions
@@ -218,6 +222,7 @@ This adds a `Signed-off-by` line to your commit message.
 ### What This Means
 
 By signing off, you certify that:
+
 1. You created the contribution or have the right to submit it
 2. The contribution is made under the project's license
 3. You understand the contribution may be public forever
@@ -228,7 +233,7 @@ By signing off, you certify that:
 
 - 💬 [GitHub Discussions](https://github.com/braincraftio/workspace/discussions)
 - 🐛 [Issue Tracker](https://github.com/braincraftio/.github/issues)
-- 📧 Email: hello@braincraft.io
+- 📧 Email: <hello@braincraft.io>
 
 ### Being a Good Community Member
 
@@ -241,6 +246,7 @@ By signing off, you certify that:
 ## Recognition
 
 We value all contributions and recognize our contributors through:
+
 - Credits in release notes
 - Contributors section in documentation
 - Shoutouts in community updates
@@ -249,10 +255,11 @@ We value all contributions and recognize our contributors through:
 ## Questions?
 
 If you have questions about contributing:
+
 1. Check existing documentation
 2. Search closed issues and discussions
 3. Ask in GitHub Discussions
-4. Email us at hello@braincraft.io
+4. Email us at <hello@braincraft.io>
 
 Together, we're building infrastructure for a more equitable and joyful technological future.
 

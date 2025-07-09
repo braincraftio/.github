@@ -12,6 +12,7 @@ Thank you for using BrainCraft.io projects! We're here to help you get the most 
 ### 📚 Documentation
 
 Start with our documentation resources:
+
 - **Project README**: Each repository contains a README with setup instructions and basic usage
 - **Wiki**: Check the [GitHub Wiki](https://github.com/braincraftio/.github/wiki) for detailed guides
 - **API Documentation**: Available in individual project repositories
@@ -61,7 +62,7 @@ To help us help you more effectively:
 
 For organizations requiring dedicated support:
 
-- **Enterprise Support**: Contact us at enterprise@braincraft.io
+- **Enterprise Support**: Contact us at <enterprise@braincraft.io>
 - **Consulting Services**: Available for custom implementations
 - **Training**: We offer workshops and training sessions
 - **SLA Options**: Available for mission-critical deployments
@@ -114,7 +115,7 @@ A: Use our [bug report template](https://github.com/braincraftio/.github/issues/
 A: Star and watch our repositories, join GitHub Discussions, and follow our organization on GitHub.
 
 **Q: Can I use the BrainCraft.io logo in my project?**
-A: Please contact us at hello@braincraft.io for logo usage guidelines.
+A: Please contact us at <hello@braincraft.io> for logo usage guidelines.
 
 **Q: Do you accept sponsorships?**
 A: Yes! Check our [funding options](https://github.com/sponsors/braincraftio) on GitHub Sponsors.

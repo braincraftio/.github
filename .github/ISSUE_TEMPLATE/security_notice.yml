@@ -10,26 +10,26 @@ body:
     attributes:
       value: |
         # 🛑 **STOP! Do not create public security issues.**
-        
+
         ## Security vulnerabilities should NEVER be reported publicly
-        
+
         Please report security vulnerabilities through one of these private channels:
-        
+
         ### Option 1: GitHub Security Advisories (Recommended)
         1. Go to the **Security** tab of this repository
         2. Click **"Report a vulnerability"**
         3. Fill out the private security advisory form
-        
+
         ### Option 2: Email
         Send details to: **security@braincraft.io**
-        
+
         ### Why This Matters
         Creating public issues for security vulnerabilities puts all users at risk by exposing attack vectors before fixes are available.
-        
+
         ---
-        
+
         **If you proceed with creating this issue, it will be immediately closed and deleted for security reasons.**
-  
+
   - type: checkboxes
     id: acknowledgment
     attributes:
@@ -38,7 +38,7 @@ body:
       options:
         - label: I understand that security issues should NOT be reported publicly and I will report this privately instead
           required: true
-  
+
   - type: textarea
     id: redirect
     attributes:
@@ -46,7 +46,7 @@ body:
       description: If you're still filling this out, you're doing it wrong. Please use the private reporting channels above.
       value: |
         This issue will be closed immediately.
-        
+
         Please report security issues privately at:
         - GitHub Security Advisories (see Security tab)
         - Email: security@braincraft.io

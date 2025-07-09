@@ -27,10 +27,10 @@ on:
     paths:
       - '**.md'
       - '.github/workflows/markdown-link-check.yml'
-  
+
   # Manual trigger
   workflow_dispatch:
-  
+
   # Scheduled check (weekly on Sundays)
   schedule:
     - cron: '0 0 * * 0'
@@ -73,7 +73,7 @@ jobs:
   check-links:
     name: Validate Markdown Links
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -135,16 +135,16 @@ jobs:
           script: |
             const output = `
             ❌ **Markdown Link Check Failed**
-            
+
             Some links in your markdown files are broken. Please check the logs for details.
-            
+
             To run this check locally:
             \`\`\`bash
             npm install -g markdown-link-check
             find . -name "*.md" -exec markdown-link-check {} \;
             \`\`\`
             `;
-            
+
             github.rest.issues.createComment({
               issue_number: context.issue.number,
               owner: context.repo.owner,

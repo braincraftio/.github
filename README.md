@@ -3,7 +3,7 @@ SPDX-FileCopyrightText: 2025 BrainCraft.io
 SPDX-License-Identifier: Apache-2.0
 -->
 
-# .github
+# .GitHub
 
 [![REUSE Compliant](https://img.shields.io/badge/REUSE-compliant-green)](https://reuse.software/)
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
@@ -14,6 +14,7 @@ Organization-wide default community health files, reusable workflows, and GitHub
 ## 📋 Overview
 
 This special `.github` repository provides:
+
 - 🏥 **Community Health Files** - Default files for all repos (CONTRIBUTING, SECURITY, etc.)
 - 🔄 **Reusable Workflows** - Shared GitHub Actions workflows
 - 📝 **Templates** - Issue and PR templates for consistency
@@ -27,6 +28,7 @@ This special `.github` repository provides:
 1. **Using Default Files**: Any file in this repo's `.github/` directory will be used as a default for repos that don't have their own version.
 
 2. **Using Reusable Workflows**:
+
    ```yaml
    jobs:
      license-check:
@@ -77,6 +79,7 @@ The following files in `.github/` are automatically inherited by all repositorie
 ## 📝 Issue & PR Templates
 
 We provide comprehensive templates for:
+
 - 🐛 **Bug Reports** - Structured bug reporting with environment details
 - ✨ **Feature Requests** - Propose new features with use cases
 - 📚 **Documentation** - Report docs issues or improvements
@@ -85,6 +88,7 @@ We provide comprehensive templates for:
 ### Using Templates
 
 Templates are automatically available when creating issues/PRs. For specific PR templates:
+
 ```
 https://github.com/braincraftio/[repo]/compare/main...branch?template=feature.md
 ```
@@ -93,21 +97,24 @@ https://github.com/braincraftio/[repo]/compare/main...branch?template=feature.md
 
 Our workflows in `.github/workflows/` serve dual purposes - they run in this repository AND can be called from other repositories:
 
-### Available Workflows:
+### Available Workflows
+
 - **`spdx-header-check.yml`** - Validates SPDX license headers and REUSE compliance
 - **`markdown-link-check.yml`** - Validates all markdown links and anchors
 
-### Using in Other Repositories:
+### Using in Other Repositories
+
 ```yaml
 jobs:
   license-check:
     uses: braincraftio/.github/.github/workflows/spdx-header-check.yml@main
-  
+
   link-check:
     uses: braincraftio/.github/.github/workflows/markdown-link-check.yml@main
 ```
 
 Coming soon:
+
 - Security scanning workflows
 - Code quality checks
 - Automated release workflows
@@ -137,6 +144,7 @@ This repository is [REUSE compliant](https://reuse.software/), ensuring clear an
 ## 🤝 Contributing
 
 We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details on:
+
 - Code style and standards
 - Pull request process
 - Development setup
@@ -145,6 +153,7 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 ## 🔒 Security
 
 Security is a top priority. Please see our [Security Policy](SECURITY.md) for:
+
 - Vulnerability reporting procedures
 - Security update process
 - Responsible disclosure guidelines
@@ -154,9 +163,10 @@ Security is a top priority. Please see our [Security Policy](SECURITY.md) for:
 ## 💬 Support
 
 Need help? Check out our [Support Guide](SUPPORT.md) or:
+
 - 💭 [GitHub Discussions](https://github.com/braincraftio/workspace/discussions)
 - 🐛 [Issue Tracker](https://github.com/braincraftio/.github/issues)
-- 📧 Email: hello@braincraft.io
+- 📧 Email: <hello@braincraft.io>
 
 ## 🏛️ Governance
 
@@ -165,6 +175,7 @@ Learn about our decision-making process in [GOVERNANCE.md](GOVERNANCE.md).
 ## 💝 Funding
 
 Support BrainCraft.io development:
+
 - [GitHub Sponsors](https://github.com/sponsors/braincraftio)
 - [Open Collective](https://opencollective.com/braincraftio)
 - [Patreon](https://www.patreon.com/c/braincraftio)

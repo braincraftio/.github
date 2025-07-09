@@ -11,7 +11,7 @@ body:
     attributes:
       value: |
         Thanks for suggesting a feature! Please provide as much detail as possible to help us understand your idea.
-  
+
   - type: textarea
     id: problem
     attributes:
@@ -19,13 +19,13 @@ body:
       description: Describe the problem this feature would solve
       placeholder: |
         I'm always frustrated when...
-        
+
         Currently, there's no way to...
-        
+
         It would be helpful if...
     validations:
       required: true
-  
+
   - type: textarea
     id: solution
     attributes:
@@ -33,13 +33,13 @@ body:
       description: Describe how you think this feature should work
       placeholder: |
         I would like to see...
-        
+
         The feature could work by...
-        
+
         This would allow users to...
     validations:
       required: true
-  
+
   - type: textarea
     id: alternatives
     attributes:
@@ -47,13 +47,13 @@ body:
       description: What alternatives have you considered? Why is your proposed solution better?
       placeholder: |
         I've also considered...
-        
+
         Another approach might be...
-        
+
         But I think my solution is better because...
     validations:
       required: true
-  
+
   - type: dropdown
     id: priority
     attributes:
@@ -65,7 +65,7 @@ body:
         - Critical for my use case
     validations:
       required: true
-  
+
   - type: textarea
     id: use-case
     attributes:
@@ -73,17 +73,17 @@ body:
       description: Describe your specific use case for this feature
       placeholder: |
         I need this feature for...
-        
+
         My workflow involves...
-        
+
         This would help me...
-  
+
   - type: textarea
     id: additional
     attributes:
       label: Additional Context
       description: Add any other context, mockups, examples, or screenshots about the feature request here
-  
+
   - type: checkboxes
     id: terms
     attributes:

@@ -14,6 +14,7 @@ BrainCraft.io follows a collaborative decision-making model that balances commun
 ### Consensus Model
 
 We strive for consensus on all major decisions through:
+
 1. **Proposal**: Ideas are proposed via GitHub Issues or Discussions
 2. **Discussion**: Community members provide feedback and suggestions
 3. **Refinement**: Proposals are updated based on input
@@ -22,17 +23,20 @@ We strive for consensus on all major decisions through:
 ### Decision Types
 
 **Minor Decisions** (bug fixes, documentation updates):
+
 - Can be made by any maintainer
 - Should follow existing patterns and standards
 - Require one approving review
 
 **Major Decisions** (new features, breaking changes):
+
 - Require discussion in GitHub Issues/Discussions
 - Need approval from at least two maintainers
 - Should consider community impact
 - May require a comment period (typically 7 days)
 
 **Strategic Decisions** (new projects, major direction changes):
+
 - Require consensus among all active maintainers
 - Must include community consultation period
 - Should be documented in organization-wide announcements
@@ -55,6 +59,7 @@ We strive for consensus on all major decisions through:
 - Have contributed at least one merged PR
 
 **Privileges**:
+
 - Recognition in project documentation
 - Invitation to contributor discussions
 - Early access to new features (when applicable)
@@ -68,6 +73,7 @@ We strive for consensus on all major decisions through:
 - Guide architectural decisions
 
 **Responsibilities**:
+
 - Timely review of contributions
 - Mentoring new contributors
 - Ensuring code quality and security
@@ -75,6 +81,7 @@ We strive for consensus on all major decisions through:
 - Being responsive to community needs
 
 **Privileges**:
+
 - Write access to repositories
 - Ability to manage issues and PRs
 - Voice in strategic decisions
@@ -92,12 +99,14 @@ We strive for consensus on all major decisions through:
 We welcome new maintainers who demonstrate:
 
 ### Technical Criteria
+
 - Consistent high-quality contributions
 - Deep understanding of project architecture
 - Commitment to code quality and testing
 - Knowledge of our tech stack and practices
 
 ### Community Criteria
+
 - Helpful and respectful communication
 - Active participation in discussions
 - Mentoring other contributors
@@ -105,17 +114,20 @@ We welcome new maintainers who demonstrate:
 - Time commitment (typically 2+ hours/week)
 
 ### Process
+
 1. **Nomination**: Current maintainers or self-nomination
 2. **Discussion**: Private maintainer discussion (2 week period)
 3. **Decision**: Unanimous approval from existing maintainers
 4. **Onboarding**: Access grants, documentation, mentoring
 
 ### Maintaining Status
+
 - Active participation (contributions, reviews, discussions)
 - Adherence to code of conduct
 - Continued alignment with project goals
 
 ### Stepping Down
+
 - Maintainers may step down at any time
 - Provide notice when possible for transition
 - Emeritus status available for past maintainers
@@ -123,12 +135,14 @@ We welcome new maintainers who demonstrate:
 ## Meetings
 
 ### Regular Meetings
+
 - **Frequency**: Monthly (first Tuesday)
 - **Format**: Virtual (recorded when possible)
 - **Agenda**: Published 48 hours in advance
 - **Open to**: All contributors
 
 ### Topics Covered
+
 - Project roadmap and priorities
 - Technical decisions and RFCs
 - Community feedback review
@@ -136,6 +150,7 @@ We welcome new maintainers who demonstrate:
 - Resource allocation
 
 ### Ad-hoc Meetings
+
 - Called for urgent matters
 - Specific technical discussions
 - Strategic planning sessions
@@ -150,6 +165,7 @@ When conflicts arise:
 4. **Final Decision**: Organization owners make final decision if needed
 
 All parties must:
+
 - Remain respectful and professional
 - Focus on project benefit over personal preferences
 - Abide by our Code of Conduct
@@ -159,6 +175,7 @@ All parties must:
 When consensus cannot be reached:
 
 ### Voting Rules
+
 - Each maintainer has one vote
 - Quorum: 2/3 of active maintainers
 - Approval threshold: Simple majority unless specified
@@ -166,6 +183,7 @@ When consensus cannot be reached:
 - Votes are public in maintainer discussions
 
 ### Veto Rights
+
 - Security vulnerabilities: Security team can veto
 - License changes: Require unanimous approval
 - Governance changes: Require 2/3 supermajority
@@ -173,6 +191,7 @@ When consensus cannot be reached:
 ## Changes to Governance
 
 This governance model can be changed through:
+
 1. Proposal via GitHub Issue
 2. Discussion period (minimum 14 days)
 3. Maintainer vote (2/3 supermajority required)
@@ -181,6 +200,7 @@ This governance model can be changed through:
 ## Transparency
 
 We commit to transparency through:
+
 - Public roadmaps and planning
 - Open decision-making processes
 - Published meeting notes
@@ -190,15 +210,16 @@ We commit to transparency through:
 ## Code of Conduct
 
 All participants must follow our [Code of Conduct](./CODE_OF_CONDUCT.md). Violations may result in:
+
 - Warning (first offense)
 - Temporary ban (repeated offenses)
 - Permanent ban (severe violations)
 
 ## Contact
 
-- General Questions: hello@braincraft.io
-- Governance Issues: governance@braincraft.io
-- Security Concerns: security@braincraft.io
+- General Questions: <hello@braincraft.io>
+- Governance Issues: <governance@braincraft.io>
+- Security Concerns: <security@braincraft.io>
 
 ---
 

@@ -25,6 +25,7 @@ SPDX-License-Identifier: CC0-1.0
 <!-- Describe any performance implications -->
 
 ## Testing Plan
+
 - [ ] Unit tests added for all new functionality
 - [ ] Integration tests added for feature workflows
 - [ ] Performance impact assessed and acceptable
@@ -36,6 +37,7 @@ SPDX-License-Identifier: CC0-1.0
 <!-- What's the test coverage for the new code? -->
 
 ## Documentation
+
 - [ ] API documentation updated
 - [ ] User guide updated
 - [ ] Code comments added for complex logic
@@ -56,6 +58,7 @@ SPDX-License-Identifier: CC0-1.0
 Implements #
 
 ## Checklist
+
 - [ ] Feature flag implemented (if applicable)
 - [ ] Metrics/logging added for monitoring
 - [ ] Performance benchmarks included

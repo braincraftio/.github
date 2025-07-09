@@ -11,7 +11,7 @@ body:
     attributes:
       value: |
         Thanks for taking the time to report a bug! Please fill out the sections below to help us understand and fix the issue.
-  
+
   - type: textarea
     id: description
     attributes:
@@ -20,7 +20,7 @@ body:
       placeholder: Tell us what happened
     validations:
       required: true
-  
+
   - type: textarea
     id: reproduction
     attributes:
@@ -33,7 +33,7 @@ body:
         4. See error
     validations:
       required: true
-  
+
   - type: textarea
     id: expected
     attributes:
@@ -42,7 +42,7 @@ body:
       placeholder: What should have happened?
     validations:
       required: true
-  
+
   - type: textarea
     id: actual
     attributes:
@@ -51,7 +51,7 @@ body:
       placeholder: What actually happened?
     validations:
       required: true
-  
+
   - type: dropdown
     id: severity
     attributes:
@@ -64,7 +64,7 @@ body:
         - Low (Cosmetic issue)
     validations:
       required: true
-  
+
   - type: textarea
     id: environment
     attributes:
@@ -79,26 +79,26 @@ body:
       render: markdown
     validations:
       required: true
-  
+
   - type: textarea
     id: logs
     attributes:
       label: Logs
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
-  
+
   - type: textarea
     id: screenshots
     attributes:
       label: Screenshots
       description: If applicable, add screenshots to help explain your problem. You can drag and drop images here.
-  
+
   - type: textarea
     id: additional
     attributes:
       label: Additional Context
       description: Add any other context about the problem here
-  
+
   - type: checkboxes
     id: terms
     attributes:

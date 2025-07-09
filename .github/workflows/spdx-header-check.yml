@@ -21,7 +21,7 @@ on:
     branches: [main, master]
   pull_request:
     branches: [main, master]
-  
+
   # Allow this workflow to be called by other repositories
   workflow_call:
     inputs:
@@ -45,7 +45,7 @@ jobs:
   reuse-lint:
     name: Validate SPDX License Headers
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -117,7 +117,7 @@ jobs:
           echo "For more information, see: https://reuse.software/"
 
 # Usage Examples:
-# 
+#
 # 1. Call this workflow from another repository:
 #    ```yaml
 #    jobs:

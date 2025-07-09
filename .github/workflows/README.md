@@ -36,7 +36,7 @@ on: [push, pull_request]
 jobs:
   license-check:
     uses: braincraftio/.github/.github/workflows/spdx-header-check.yml@main
-  
+
   link-check:
     uses: braincraftio/.github/.github/workflows/markdown-link-check.yml@main
 ```
@@ -50,6 +50,7 @@ jobs:
 Validates SPDX license headers and REUSE compliance across your repository. Generates Software Bill of Materials (SBOM) and provides detailed feedback on missing or incorrect license headers.
 
 **Features:**
+
 - REUSE specification compliance validation
 - SPDX SBOM generation in standard format
 - Detailed error reporting with suggested fixes
@@ -57,11 +58,13 @@ Validates SPDX license headers and REUSE compliance across your repository. Gene
 - Configurable working directories
 
 **Triggers:**
+
 - Push to main/master branches
 - Pull requests to main/master branches
 - Manual workflow dispatch
 
 **Artifacts:**
+
 - SPDX SBOM (JSON format, 30-day retention)
 
 ### Markdown Link Validation
@@ -71,6 +74,7 @@ Validates SPDX license headers and REUSE compliance across your repository. Gene
 Validates all links in Markdown files to ensure they remain accessible and functional. Supports custom configuration and provides comprehensive reporting.
 
 **Features:**
+
 - Comprehensive link validation (HTTP/HTTPS, anchors, relative paths)
 - Custom configuration support
 - Scheduled validation (weekly)
@@ -78,12 +82,14 @@ Validates all links in Markdown files to ensure they remain accessible and funct
 - Configurable timeout and retry logic
 
 **Triggers:**
+
 - Push to main/master branches (when .md files change)
 - Pull requests to main/master branches (when .md files change)
 - Weekly schedule (Sundays at midnight UTC)
 - Manual workflow dispatch
 
 **Artifacts:**
+
 - Detailed link check logs (7-day retention, on failure)
 
 ## How to Use Workflows
@@ -99,7 +105,7 @@ on: [push, pull_request]
 jobs:
   license-compliance:
     uses: braincraftio/.github/.github/workflows/spdx-header-check.yml@main
-  
+
   documentation-quality:
     uses: braincraftio/.github/.github/workflows/markdown-link-check.yml@main
 ```
@@ -119,7 +125,7 @@ jobs:
       python-version: '3.11'
       reuse-version: '2.1.0'
       working-directory: './src'
-  
+
   link-check:
     uses: braincraftio/.github/.github/workflows/markdown-link-check.yml@main
     with:
@@ -131,6 +137,7 @@ jobs:
 ### Integration Patterns
 
 **Conditional Execution:**
+
 ```yaml
 jobs:
   license-check:
@@ -139,6 +146,7 @@ jobs:
 ```
 
 **Matrix Strategy:**
+
 ```yaml
 jobs:
   multi-directory-check:
@@ -151,11 +159,12 @@ jobs:
 ```
 
 **Dependent Jobs:**
+
 ```yaml
 jobs:
   license-check:
     uses: braincraftio/.github/.github/workflows/spdx-header-check.yml@main
-  
+
   link-check:
     needs: license-check
     uses: braincraftio/.github/.github/workflows/markdown-link-check.yml@main
@@ -222,6 +231,7 @@ Workflows generate artifacts for further analysis:
 ### Common Issues
 
 **SPDX License Check Failures:**
+
 - Missing SPDX headers on files
 - Incorrect license identifiers
 - Files not covered by REUSE.toml configuration
@@ -229,6 +239,7 @@ Workflows generate artifacts for further analysis:
 *Solution*: Review the generated error report and add appropriate SPDX headers or update REUSE.toml to exclude files that don't require headers.
 
 **Markdown Link Check Failures:**
+
 - Broken external links
 - Invalid internal references
 - Temporary network issues
@@ -236,6 +247,7 @@ Workflows generate artifacts for further analysis:
 *Solution*: Examine the detailed link report, fix broken links, or add problematic URLs to the ignore list in your configuration file.
 
 **Workflow Not Found Errors:**
+
 - Incorrect repository reference
 - Missing `@main` version specifier
 - Private repository access issues
@@ -245,6 +257,7 @@ Workflows generate artifacts for further analysis:
 ### Configuration Examples
 
 **Custom REUSE Configuration** (`REUSE.toml`):
+
 ```toml
 version = 1
 
@@ -260,6 +273,7 @@ SPDX-FileCopyrightText = "Various vendors"
 ```
 
 **Custom Link Check Configuration** (`mlc_config.json`):
+
 ```json
 {
   "ignorePatterns": [

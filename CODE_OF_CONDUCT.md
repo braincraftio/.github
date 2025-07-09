@@ -15,21 +15,21 @@ We as members, contributors, and leaders **pledge to make participation in our c
 
 **Expected Behavior:** Examples of behavior that contributes to a positive environment for our community include:
 
-* Demonstrating **empathy and kindness** toward others
-* Being respectful of **differing opinions, viewpoints, and experiences**
-* Giving and gracefully accepting **constructive feedback**
-* Accepting responsibility and apologizing to those affected by mistakes, and **learning from the experience**
-* Focusing on what is best not just for individuals, but for the **overall community**
-* Approaching disagreements or conflicts **constructively and without blame or shame**, focusing on understanding and resolving issues together
-* Using inclusive language and **prioritizing accessibility** in our communications and project design, so that our community is open to people of all abilities and needs
+- Demonstrating **empathy and kindness** toward others
+- Being respectful of **differing opinions, viewpoints, and experiences**
+- Giving and gracefully accepting **constructive feedback**
+- Accepting responsibility and apologizing to those affected by mistakes, and **learning from the experience**
+- Focusing on what is best not just for individuals, but for the **overall community**
+- Approaching disagreements or conflicts **constructively and without blame or shame**, focusing on understanding and resolving issues together
+- Using inclusive language and **prioritizing accessibility** in our communications and project design, so that our community is open to people of all abilities and needs
 
 **Unacceptable Behavior:** Examples of behavior that will **not** be tolerated include:
 
-* The use of **sexualized language or imagery**, and unwelcome sexual attention or advances of any kind
-* **Trolling**, insulting or derogatory comments, and personal or political attacks
-* Public or private **harassment** of any kind
-* Publishing others’ **private information** (such as a physical or email address) without explicit permission (doxxing)
-* Other conduct which could reasonably be considered **inappropriate in a professional setting** or that violates our standards of respect and inclusion
+- The use of **sexualized language or imagery**, and unwelcome sexual attention or advances of any kind
+- **Trolling**, insulting or derogatory comments, and personal or political attacks
+- Public or private **harassment** of any kind
+- Publishing others’ **private information** (such as a physical or email address) without explicit permission (doxxing)
+- Other conduct which could reasonably be considered **inappropriate in a professional setting** or that violates our standards of respect and inclusion
 
 Please note that this Code of Conduct is *not exhaustive*. It serves to capture our common understanding of a **productive, collaborative environment**, and we expect all community members to follow it in **spirit as well as in letter**.
 
@@ -80,4 +80,3 @@ Community leaders (the BrainCraft.io Maintainers) will follow these **Community 
 ## Attribution
 
 This Code of Conduct is adapted from the Contributor Covenant, version 2.1, as well as from policies of other open source communities. The **Community Impact Guidelines** for enforcement are inspired by Mozilla’s Code of Conduct Enforcement Ladder. This document also reflects values of empathy, inclusion, and **positive conflict resolution** drawn from community best practices. We thank the open source community (including CNCF, Apache, Linux Foundation, Kubernetes, and Microsoft Open Source) for their examples and leadership in establishing respectful, inclusive community norms.
-

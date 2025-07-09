@@ -15,7 +15,7 @@ Our mission is to create tools, frameworks, and educational resources that empow
 
 | Project | Description | Status | License |
 |---------|-------------|--------|---------|
-| **.github** | Organization-wide defaults and standards | Active | Apache-2.0 / CC-BY-4.0 |
+| **.GitHub** | Organization-wide defaults and standards | Active | Apache-2.0 / CC-BY-4.0 |
 | **Coming Soon** | More exciting projects in development | Planning | TBD |
 
 ## Technology Stack
@@ -31,12 +31,14 @@ We work with a diverse range of technologies to meet various project needs:
 ## Getting Started
 
 ### For Contributors
+
 1. Read our [Contributing Guidelines](https://github.com/braincraftio/.github/blob/main/CONTRIBUTING.md)
 2. Review our [Code of Conduct](https://github.com/braincraftio/.github/blob/main/CODE_OF_CONDUCT.md)
 3. Check out our project repositories
 4. Join the discussion in [GitHub Discussions](https://github.com/braincraftio/workspace/discussions)
 
 ### For Users
+
 - Browse our repositories for tools and resources
 - Check individual project documentation for installation and usage
 - Report issues or request features through GitHub Issues
@@ -44,7 +46,7 @@ We work with a diverse range of technologies to meet various project needs:
 
 ## Contributing
 
-We welcome contributions from everyone! Whether you're fixing bugs, improving documentation, or proposing new features, your input is valued. 
+We welcome contributions from everyone! Whether you're fixing bugs, improving documentation, or proposing new features, your input is valued.
 
 - **Code Contributions**: Follow our coding standards and submit PRs
 - **Documentation**: Help improve our docs and tutorials
@@ -71,7 +73,7 @@ Security is a top priority at BrainCraft.io. We take the following measures:
 - SPDX license compliance and SBOM generation
 - Responsible disclosure policy for vulnerabilities
 
-For security concerns, please see our [Security Policy](https://github.com/braincraftio/.github/blob/main/SECURITY.md) or contact us privately at security@braincraft.io.
+For security concerns, please see our [Security Policy](https://github.com/braincraftio/.github/blob/main/SECURITY.md) or contact us privately at <security@braincraft.io>.
 
 ## License
 
@@ -90,8 +92,8 @@ This approach balances innovation protection with knowledge sharing. See individ
 
 ## Contact
 
-- 📧 General Inquiries: hello@braincraft.io
-- 🔒 Security Issues: security@braincraft.io
+- 📧 General Inquiries: <hello@braincraft.io>
+- 🔒 Security Issues: <security@braincraft.io>
 - 🐛 Bug Reports: Use GitHub Issues in relevant repositories
 - 💬 Community: Join our GitHub Discussions
 

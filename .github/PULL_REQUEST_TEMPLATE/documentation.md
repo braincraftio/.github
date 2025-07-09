@@ -17,7 +17,7 @@ SPDX-License-Identifier: CC0-1.0
 - [ ] Troubleshooting guides
 - [ ] Migration guides
 - [ ] Code comments
-- [ ] Other: 
+- [ ] Other:
 
 ## Reason for Changes
 <!-- Why are these documentation changes needed? -->
@@ -31,7 +31,9 @@ SPDX-License-Identifier: CC0-1.0
 - [ ] API consumers
 
 ## Content Review
+
 ### Accuracy
+
 - [ ] Technical details verified
 - [ ] Code examples tested
 - [ ] Commands/scripts validated
@@ -39,6 +41,7 @@ SPDX-License-Identifier: CC0-1.0
 - [ ] Version numbers correct
 
 ### Clarity
+
 - [ ] Clear and concise language
 - [ ] Proper formatting and structure
 - [ ] Consistent terminology
@@ -46,6 +49,7 @@ SPDX-License-Identifier: CC0-1.0
 - [ ] Good examples provided
 
 ### Completeness
+
 - [ ] All necessary topics covered
 - [ ] No missing steps
 - [ ] Edge cases documented
@@ -53,6 +57,7 @@ SPDX-License-Identifier: CC0-1.0
 - [ ] FAQs updated (if needed)
 
 ## Checklist
+
 - [ ] Spell check completed
 - [ ] Grammar check completed
 - [ ] Formatting follows style guide
